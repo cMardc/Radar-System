@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block body%}
+
+    <div class="h-100 d-flex justify-content-center align-items-center div-form">
+        <form method="post" class="form-login ">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" id="inputbox">
+        </form>
+    </div>
+    
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block body%}
+
+    <div class="h-100 d-flex justify-content-center align-items-center" style="margin-top: 30vh;">
+        <p>Wrong password entered!</p>
+    </div>
+
+    <div class="h-100 d-flex justify-content-center align-items-center" style="margin-top: 30vh;">
+        <button  class="btn btn-lg btn-outline-primary" onclick=location.href="{% url 'index' %}"; style="display: block;">Go back</button>
+    </div>
+
+{% endblock %}

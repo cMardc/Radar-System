@@ -1,0 +1,5 @@
+﻿Name,Quantity,Component
+"U1",1," Arduino Uno R3"
+"DIST1",1," Ultrasonic Distance Sensor"
+"SERVO1",1,"Positional Micro Servo"
+"BAT1",1," 9V Battery"
